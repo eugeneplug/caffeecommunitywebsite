@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+   
+    
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+
+}
+nav {
+    width: 1280px;
+    height: 80px;
+    background-color: #3A3A3A;
+    border-radius: 15px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+nav ul li {
+    margin: 50px;
+}
+.main_block_margin {
+    width: 1135px;
+    margin: 0 auto;
+}
+.main_block_text {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    letter-spacing: -0.04em;
+    margin-top: 91px;
+    color: #C9C9C9;
+    margin-left: 55px;
+
+}
+.main_block {
+    width: 1135px;
+    height: 458px;
+    margin-top: -18px;
+    background: #3A3A3A;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.main_block_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.main_block_left span {
+    display: flex;
+    color: white;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    margin-top: 12px;
+    margin-left: 60px;
+    justify-content: space-between;
+}
+.main_block_left span:hover {
+    background: #DDDDDD;
+    
+    color: black;
+    border-radius: 20px;
+    padding: 7px;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: 0.15s;
+    
+}
+
+
+.main_block_right img {
+    margin-top: 29px;
+    margin-right: 29px;
+}
+
+.main_block_left span p:nth-child(2) {
+    margin-left: 25px;
+}
+.main_row {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+
+}
+.main_row p {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+    margin-left: 50px;
+    margin-top: 24px;
+    box-sizing: border-box;
+
+}
+.main_row p:hover {
+    
+   background: #3A3A3A;
+    
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+
+
+
+    box-sizing: border-box;
+
+    
+    padding: 10px 30px;
+
+
+
+    transition: 0.15s;
+
+
+
+
+
+
+
+}
