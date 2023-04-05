@@ -40,7 +40,99 @@ nav ul {
 }
 nav ul li {
     margin: 50px;
+
 }
+
+nav ul li:hover::after {
+    
+  content: "";
+  display: block;
+  width: 100%;
+  max-width: 98px;
+  height: 5px;
+  background-color: white;
+  margin-top: 8px;
+  position: absolute;
+  border-radius: 20px;
+  
+  transition: 0.1s;
+
+
+  
+
+
+
+
+
+}
+
+
+
+
+/*
+nav ul li::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 5px;
+    background-color: white;
+    margin-top: 8px;
+    position: absolute;
+    border-radius: 20px;
+
+
+
+}
+*/
+
+
+
+
+
+
+
+nav ul li {
+    margin: 50px;
+    position: relative;
+}
+
+nav ul li::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 5px;
+    background-color: white;
+    margin-top: 8px;
+    position: absolute;
+    border-radius: 20px;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+nav ul li:hover::after {
+    transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
+#nav-link-1:hover::after {
+   
+    max-width: 55px;
+    margin-right: 50px;
+    
+}
+
+
+
+
+
+
 .main_block_margin {
     width: 1135px;
     margin: 0 auto;
@@ -89,15 +181,15 @@ nav ul li {
     font-size: 23px;
     line-height: 28px;
     letter-spacing: -0.04em;
+/*
     margin-top: 12px;
+*/
     margin-left: 60px;
     justify-content: space-between;
+    padding: 7px;
 }
 
 
-
-.main_block_left span  {
-}
 
 
 
@@ -149,7 +241,7 @@ nav ul li {
     font-size: 25px;
     line-height: 30px;
     letter-spacing: -0.04em;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 24px;
 
 
