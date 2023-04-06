@@ -26,9 +26,10 @@ a {
 /*main*/
 
 .tittle {
-    position: absolute;
-    top: 32px;
-    left: 139px;
+    position: relative;
+    width: 309px;
+    top: 118px;
+    left: 50px;
 
     color: #C9C9C9;
     font-size: 70px;
@@ -145,17 +146,21 @@ a {
 }
 
 .prev {
-    position: absolute;
-    left: 450px;
-    top: 943px;
+    position: relative;
+    
+    left: 366px;
+    top: 59px;
+
+    
 
     
 }
 
 .next {
-    position: absolute;
-    top: 943px;
-    right: 595px;
+    position: relative;
+    top: -25px;
+    right: -732px;
+    
 }
 
 
@@ -173,7 +178,7 @@ a {
 
     margin: 0 auto;
 
-    margin-top: 70px;
+    margin-top: 34px;
 }
 
 .menu_block_slider_line {
