@@ -1,0 +1,40 @@
+/*bassed*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+   
+    
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+/*bassed*/
+
+.bron {
+    width: 1135px;
+    height: 916px;
+    background: #3A3A3A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-top: 150px;
+}
+.bron_area {
+   
+    margin: 0 auto;
+    width: 660px;
+    border: solid wheat 1px;
+    height: 150px;
+}
