@@ -22,7 +22,7 @@ a {
     margin: 0 auto;
 }
 /*bassed*/
-
+/**/
 .bron {
     width: 1135px;
     height: 916px;
@@ -30,11 +30,97 @@ a {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     margin-top: 150px;
+    margin: 0 auto;
 }
 .bron_area {
    
     margin: 0 auto;
     width: 660px;
-    border: solid wheat 1px;
     height: 150px;
+}
+.bron_area_name span {
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    color: #C9C9C9;
+}
+
+.bron_area_name span:nth-child(2) {
+    display: inline-block;
+    margin-left: 301px;
+}
+.bron_area_input-name {
+    display: flex;
+    justify-content: space-between;
+}
+.bron_area_input-name input {
+    width: 293px;
+    height: 40px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    padding-left: 17px;
+    display: block;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+.bron_area-email {
+    margin-top: 25px;
+}
+.bron_area-email span {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    color: #C9C9C9;
+}
+.bron_area_input_email input {
+    border: none;
+    background: #D9D9D9;
+    border-radius: 5px;
+    width: 450px;
+    height: 40px;
+
+    font-size: 15px;
+    padding-left: 17px;
+    font-weight: 700;
+}
+input::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+}
+.bron_area-phone {
+    margin-top: 25px;
+}
+.bron_area-phone span {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    color: #C9C9C9;
+}
+.bron_area_input-phone input {
+    border: none;
+    background: #D9D9D9;
+    border-radius: 5px;
+    width: 450px;
+    height: 40px;
+
+    font-size: 15px;
+    padding-left: 17px;
+    font-weight: 700;
+
+}
+.bron_area_date_bron_text {
+    margin-top: 25px;
+}
+.bron_area_date_bron_text span {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    color: #C9C9C9;
+}
+.bron_area_date_bron_text span:nth-child(2) {
+    margin-left: 112px;
 }
