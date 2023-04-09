@@ -167,7 +167,7 @@ nav ul li {
 .tittle {
     position: relative;
     width: 309px;
-    top: 118px;
+    top: 90px;
     left: 127px;
 
     color: #C9C9C9;
@@ -179,7 +179,7 @@ nav ul li {
     margin: 0 auto;
     width: 1135px;
     height: 931px;
-    margin-top: 100px;
+    margin-top: 72px;
 
     background: #DDDDDD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -340,6 +340,7 @@ nav ul li {
 footer {
     width: 1280px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 
 .footer_tittle {

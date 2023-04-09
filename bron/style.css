@@ -190,7 +190,7 @@ input {
     letter-spacing: -0.04em;
     position: relative;
     left: 126px;
-    top: 168px;
+    top: 91px;
     color: #C9C9C9;
 }
 
@@ -204,7 +204,7 @@ input {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 73px;
     
 }
 .bron_area {
@@ -466,6 +466,7 @@ input::placeholder {
 footer {
     width: 1280px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 
 .footer_tittle {

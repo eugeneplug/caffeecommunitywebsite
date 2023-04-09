@@ -178,17 +178,20 @@ nav ul li {
     letter-spacing: -0.04em;
     font-weight: 700;
     position: relative;
-    top: 59px;
+    top: 92px;
     left: 122px; 
 
     width: 500px;
+}
+
+.main {
+    margin-top: 74px;
 }
 
 
 .block {
     width: 1135px;
     height: 340px;
-
     background: #DDDDDD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -251,6 +254,8 @@ nav ul li {
 footer {
     width: 1280px;
     margin: 0 auto;
+    margin-top: 100px;
+    font-weight: 700;
 }
 
 .footer_tittle {
