@@ -612,3 +612,256 @@ footer {
     margin-top: 5px;
 }
 /*footer*/
+
+
+
+
+
+
+
+/**/
+
+@media (max-width:600px) {
+    nav {
+        display: none;
+    }
+    .container {
+        width: 600px;
+    }
+    .tittle h1 {
+        width: 450px;
+
+
+
+        font-weight: 700;
+        font-size: 43px;
+        line-height: 37px;
+        letter-spacing: -0.04em;
+        position: relative;
+        left: 80px;
+        top: 75px;
+        color: #C9C9C9;
+    }
+    .bron {
+        width: 520px;
+        height: 658px;
+    }
+    .bron_area_name {
+        padding-top: 23px;
+        /*
+        w450
+        */
+    }
+    .bron_area_name span {
+        font-size: 20px;
+    }
+    .bron_area_name span:nth-child(1) {
+        margin-left: 51px;
+    }
+    .bron_area_name span:nth-child(2) {
+        margin-left: 189px;
+    }
+
+
+
+
+    .bron_area_input-name input {
+        width: 196px;
+        padding-left: 17px;
+    }
+    .bron_area_input-name input:nth-child(1) {
+        margin-left: 36px;
+    }
+
+    .bron_area_input-name input:nth-child(2) {
+        margin-left: 21px;
+    }
+    .bron_area_input-name {
+        display: flex;
+        justify-content: start;
+    }
+    .bron_area-email {
+        margin-left: 51px;
+        margin-top: 10px;
+       
+    }
+    .bron_area-email span {
+        font-size: 20px;
+    }
+    .bron_area_input_email input {
+        width: 369px;
+        margin-left: 36px;
+    }
+    .bron_area-phone span { 
+        font-size: 20px;
+        margin-left: 51px;
+
+    }
+    .bron_area-phone {
+        margin-top: 10px;
+    }
+    .bron_area_input-phone input { 
+        width: 369px;
+        margin-left: 36px;
+    }
+    .bron_area_date_bron_text span:nth-child(1) {
+        font-size: 20px;
+        margin-left: 51px;
+    }
+
+    .bron_area_date_bron_text span:nth-child(2) {
+        font-size: 20px;
+        margin-left: 32px;
+    }
+
+    .bron_area_date_bron_text {
+        margin-top: 10px;
+    }
+
+    .bron_area_date_broning-date input:nth-child(1) {
+        margin-left: 36px;
+    }
+    .bron_area_date_broning-date input:nth-child(2) {
+        margin-left: 5px;
+    }
+    .bron_area_date_broning-date input:nth-child(3) {
+        margin-left: 5px;
+    }
+
+
+    .bron_area-pers p {
+        margin-left: 51px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .bron_area-pers input {
+        margin-left: 36px;
+    }
+
+    .bron_area-text-area p {
+        font-size: 20px;
+        margin-left: 56px;
+    }
+
+    .bron_area-text-area textarea {
+        margin-left: 36px;
+        width: 334px;
+        height: 118px;
+    }
+
+    .bron_area-text-area p {
+        margin-top: 10px;
+    }
+
+    #bron_area-link {
+        margin-left: 36px;
+        margin-top: 30px;
+       
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+footer {
+    width: 550px;
+}
+.footer_block {
+    display: flex;
+    flex-direction: column;
+}
+.footer_block_contacts {
+    margin-left: 0;
+    margin: 0 auto;
+    width: 510px;
+}
+
+
+.footer_tittle p:nth-child(1) {
+    position: absolute;
+    top: -59px;
+    left: 50px;
+    width: 345px;
+}
+
+.footer_tittle p:nth-child(2) {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    width: 345px;
+}
+
+
+.footer_block_map {
+    width: 510px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+}
+.footer_block_map iframe {
+    width: 510px ;
+}
+.footer_row {
+    width: 510px;
+    height: 220px;
+    margin-top: 60px;
+}
+
+.footer_row_content_three {
+    
+    flex-direction: row;
+    position: relative;
+    top: 130px;
+    left: -314px;
+    line-height: 20px;
+}
+
+.footer_row_content_three a {
+    padding: 10px;
+}
+
+
+
+
+
+
+/**/
+
+.bron_area {
+    width: 550px;
+}
+
+
+
+
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/**/
