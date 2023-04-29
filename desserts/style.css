@@ -485,3 +485,151 @@ footer {
     margin-left: 20px;
     margin-top: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+
+    nav {
+        display: none;
+    }
+
+    .menu {
+        width: 462px;
+        height: 449px;
+    }
+    .next {
+        display: none;
+    }
+    .prev {
+        display: none;
+    }
+    .container {
+        width: 600px;
+    }
+    .menu_content_row-one_block {
+        width: 182px;
+        height: 167px;
+        margin-left: 30px;
+        margin-top: 0;
+    }
+    .menu_content_row-one_block_img img {
+        width: 182px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .menu_content_row-one {
+        margin-top: 20px;
+        margin-left: 4px;
+    }
+
+    .menu_content_row-two {
+        margin-top: 20px;
+        margin-left: 4px;
+    }
+    .menu_content_row-one_block p {
+        font-size: 16px;
+        margin-top: 3px;
+        margin-left: 11px;
+
+    }
+    #price {
+        margin-top: 7px;
+        margin-left: 11px;
+    }
+    .menu_content_row-one_block_flex a {
+        font-size: 16px;
+
+        margin-left: 36px;
+        margin-top: 0px;
+        width: 80px;
+        height: 29px;
+
+        
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /**/
+    footer {
+        width: 550px;
+    }
+    .footer_block {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_block_contacts {
+        margin-left: 0;
+        margin: 0 auto;
+        width: 510px;
+    }
+
+
+    .footer_tittle p:nth-child(1) {
+        position: absolute;
+        top: -59px;
+        left: 50px;
+        width: 345px;
+    }
+
+    .footer_tittle p:nth-child(2) {
+        position: absolute;
+        top: 300px;
+        left: 50px;
+        width: 345px;
+    }
+
+
+    .footer_block_map {
+        width: 510px;
+        margin: 0 auto;
+        margin-top: 60px;
+
+    }
+    .footer_block_map iframe {
+        width: 510px ;
+    }
+    .footer_row {
+        width: 510px;
+        height: 220px;
+        margin-top: 60px;
+    }
+
+    .footer_row_content_three {
+        
+        flex-direction: row;
+        position: relative;
+        top: 130px;
+        left: -314px;
+        line-height: 20px;
+    }
+
+    .footer_row_content_three a {
+        padding: 10px;
+    }
+
+}
